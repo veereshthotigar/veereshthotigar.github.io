@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i " rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/custom.css" rel="stylesheet">
+    <style>
+      .logo-img{width: 7VW;}
+    </style>
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -91,23 +94,67 @@
       </section>
       <hr class="m-0">
       <!---Experience-->
-      <section class="resume-sectio  p-3 p-lg-5 d-flex flex-colum" id="experience">
+      <section class="resume-section  p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
         <div class="row">
           <div class="col-md-1">
           </div>
           <div class="row col-md-10">
+
+            <!-- project twitter data analysis -->
+            <div class="col-lg-6 portfolio-item">
+              <div class="card h-100">
+                <img class="card-img-top" src="img/twitterDataAnalysis.png"/>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://github.com/veereshthotigar/CS5540_Prin_of_Big_Data_Mgmt/blob/master/Phase%203/Research%20poster.pdf" target="_blank">
+                      Twitter data analysis on healthy life </a><small>| Aug 2018 to Dec 2018</small>
+                  </h4>
+                  <p class="card-text">
+                    <h6>Role : Team leader | UMKC</h6>
+                    <ul>
+                      <li><b>Objective:</b> Objective is to analyze, store and visualize the downloaded twitter big data on topic HEALTH</li>
+                      <li><b>Technology:</b> Hadoop, Spark, Scala, Python, Zeppelin, and Helium</li>
+                      <li><b>Summary:</b> We get insights by analyzing and visualizing the Twitter data on the topic "Health" like what particular time hours the people are talking about health, what people are talking about health etc,. We also got hands on how to save data in SparkQL data frames, run jobs and visualize them</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- project medication take back -->
+            <div class="col-lg-6 portfolio-item">
+              <div class="card h-100">
+                <img class="card-img-top" src="img/medication.png"/>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://github.com/veereshthotigar/CS5551_ase_project" target="_blank">
+                      Medication take back cataloging application</a><small> | Aug 2018 to Dec 2018</small>
+                  </h4>
+                  <p class="card-text">
+                    <h6>Role : Team leader | UMKC</h6>
+                    <ul>
+                        <li><b>Objective:</b> The objective of the system is to record all the features/details of the medications quantity prescribed and quantity remaining at the take-back events and generates the reports for public awareness and research motive</li>
+                        <li><b>Technology:</b> Node JS, Express JS, Angular, Ionic, MongoDB and MLAB</li>
+                        <li><b>Cloud:</b> Heroku</li>
+                        <li><b>Summary:</b> project is to educate the community and bring awareness to the following issues regarding disposal of unused, unwanted and expired medications from the home and dispose of them safely to prevent poisonings, prevent prescription drug abuse, and protect the environment.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <!-- project 1 -->
             <div class="col-lg-6 portfolio-item">
               <div class="card h-100 ">
                   <img class="card-img-top" src="img/kitchen.png"/>
                 <div class="card-body">
                   <h4 class="card-title">
-                    Internet of Things for Smartkitchen | Feb 2016 to Aug 2018
+                    Internet of Things for Smartkitchen <small>| Feb 2016 to Aug 2018</small>
                   </h4>
                   <p class="card-text">
-                    <h6>Role : Senior Developer</h6>
+                    <h6>Role : Senior Developer | TCS PVT LTD</h6>
                     <ul>
                       <li>Worked on UI design and development.</li>
                       <li>Worked on cutting edge web technolgies like Angular JS, Node JS.</li>
@@ -125,10 +172,10 @@
                 <img class="card-img-top" src="img/factory_solutions.png"/>
                 <div class="card-body">
                   <h4 class="card-title">
-                    Internet of Things - Factory solutions | Jul 2016 to Aug 2016
+                    Internet of Things - Factory solutions <small>| Jul 2016 to Aug 2016</small>
                   </h4>
                   <p class="card-text">
-                    <h6>Role : Developer</h6>
+                    <h6>Role : Developer | TCS PVT LTD</h6>
                     <ul>
                       <li>Worked on UI design and development.</li>
                       <li>Worked on cutting edge web technolgies like Angular JS, Node JS.</li>
@@ -145,10 +192,10 @@
                 <img class="card-img-top" src="img/omni_channel.png"/>
                 <div class="card-body">
                   <h4 class="card-title">
-                    AI, ChatBOTS, Omni-channel messaging | Jul 2015 to Jan 2016
+                    AI, ChatBOTS, Omni-channel messaging <small>| Jul 2015 to Jan 2016</small>
                   </h4>
                   <p class="card-text">
-                    <h6>Role : Intern</h6>
+                    <h6>Role : Intern | Snapsolv</h6>
                     <ul>
                       <li>Closely worked on end-to-end product.</li>
                       <li>Worked as MEAN STACK developer.</li>
@@ -166,7 +213,7 @@
                 <img class="card-img-top" src="img/stock_portfolio.png"/>
                 <div class="card-body">
                   <h4 class="card-title">
-                    Computing the frequency of stock market change | Jan 2015 to Jun 2015
+                    Computing the frequency of stock market change <small>| Jan 2015 to Jun 2015</small>
                   </h4>
                   <p class="card-text">
                     <h6>Role : Team member | academic project</h6>
@@ -188,13 +235,14 @@
       </section>
 
       <hr class="m-0">
+      <!---Education-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
-
-
-
-          <div class="subheading mb-3"><a href="https://www.umkc.edu/" target="_blank">University of Missouri Kansas-city</a> &nbsp;&nbsp;&nbsp;&nbsp;May 2020</div>
+          <div class="subheading mb-3">
+            <i class="fas fa-graduation-cap"></i>&nbsp;
+            <a href="https://www.umkc.edu/" target="_blank">
+            University of Missouri Kansas-city</a> &nbsp;&nbsp;&nbsp;&nbsp;May 2020</div>
           <ul  class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
@@ -207,7 +255,10 @@
 
           </ul>
           <br>
-          <div class="subheading mb-3"><a href="http://vtu.ac.in/en/" target="_blank">Visvesvaraya Technological University</a>&nbsp;&nbsp;&nbsp;&nbsp;Jul 2015</div>
+          <div class="subheading mb-3">
+            <i class="fas fa-university"></i>&nbsp;
+            <a href="http://vtu.ac.in/en/" target="_blank">
+            Visvesvaraya Technological University</a>&nbsp;&nbsp;&nbsp;&nbsp;Jul 2015</div>
           <ul  class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
@@ -217,61 +268,133 @@
               <i class="fa-li fa fa-check"></i>
               Undergraduate with the first class
             </li>
-
           </ul>
-
       </section>
 
       <hr class="m-0">
+      <!---Skills-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
-
           <div class="subheading mb-3">Programming Languages & Tools</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <a href="https://www.python.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/python.png"  alt="python"/>
+              </a>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <a href="https://www.nodejs.org/en/" target="_blank">
+                <img class="fab logo-img" src="img/logo/node.png"  alt="Node JS"/>
+              </a>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-
-            <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
+              <a href="https://angular.io/" target="_blank">
+                <img class="fab logo-img" src="img/logo/angular.png"  alt="Angular"/>
+              </a>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-node"></i>
+              <a href="https://www.java.com/en/" target="_blank">
+                <img class="fab logo-img" src="img/logo/java.png"  alt="Java"/>
+              </a>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-python"></i>
+              <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">
+                <img class="fab logo-img" src="img/logo/ml.png"  alt="Machine learning"/>
+              </a>
             </li>
-
             <li class="list-inline-item">
-              <i class="fab fa-java"></i>
+              <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">
+                <img class="fab logo-img" src="img/logo/dl.png"  alt="Deep learning"/>
+              </a>
             </li>
-
+            <li class="list-inline-item">
+              <a href="https://www.r-project.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/r.png"  alt="R language"/>
+              </a>
+            </li>
           </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing & Debugging</li>
-              <li>
-              <i class="fa-li fa fa-check"></i>
-              Full Stack Development</li>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <a href="https://hadoop.apache.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/hadoop.png"  alt="Apache Hadoop"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://spark.apache.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/spark.png"  alt="Apache Spark"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.mongodb.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/mongo.png"  alt="MongoDB"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.postgresql.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/postgres.png"  alt="PostgresSQL"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://hive.apache.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/hive.png"  alt="Apache Hive"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://hbase.apache.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/hbase.png"  alt="Apache Hbase"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://pig.apache.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/pig.png"  alt="Apache Pig"/>
+              </a>
+            </li>
+          </ul>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <a href="#skills" onclick="window.open('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3');
+              window.open('https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5');
+              window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript');">
+                <img class="fab logo-img" src="img/logo/html.png"  alt="HTML5 CSS3 JS5"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://getbootstrap.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/bootstrap.png"  alt="Bootstrap"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://ionicframework.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/ionic.png"  alt="Ionic framework"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.amcharts.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/amcharts.png"  alt="Amcharts"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.highcharts.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/highchart.png"  alt="Highcharts"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://d3js.org/" target="_blank">
+                <img class="fab logo-img" src="img/logo/d3.png"  alt="D3JS"/>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.tableau.com/" target="_blank">
+                <img class="fab logo-img" src="img/logo/tableau.png"  alt="Tableau"/>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
 
       <hr class="m-0">
-
+      <!---Interests-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
@@ -281,7 +404,7 @@
       </section>
 
       <hr class="m-0">
-
+      <!---Awards-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
           <h2 class="mb-5">Awards & Certifications</h2>
@@ -313,10 +436,6 @@
       </section>
 
     </div>
-
-
-
-
   </body>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
